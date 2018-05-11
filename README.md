@@ -57,7 +57,7 @@ Some useful stuff here:
 
 [Official image](https://hub.docker.com/_/consul/)
 
-Gossip uses HashiCorp's [serf](https://github.com/hashicorp/serf),
+Consul uses HashiCorp's [serf](https://github.com/hashicorp/serf),
 but provides some useful features on top of what serf can provide.
 
 ## Golang code
