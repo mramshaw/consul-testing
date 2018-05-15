@@ -60,6 +60,26 @@ Some useful stuff here:
 Consul uses HashiCorp's [serf](https://github.com/hashicorp/serf),
 but provides some useful features on top of what serf can provide.
 
+#### Ports
+
+Consul uses the following ports:
+
+Port | Protocol
+---- | --------
+8400 | RPC
+8500 | HTTP
+8600 | DNS
+
+There is also an HTTPS port, but it usually seems to be set to -1.
+
+#### Binaries
+
+Like many other HashiCorp products, there is only a single binary.
+
+Which simplifies deployment ... the client and the server are the same docker image.
+
+Servers are specified with the `-server` option.
+
 ## Golang code
 
 Install dependencies:
