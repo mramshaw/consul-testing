@@ -1,5 +1,7 @@
 # Consul Testing
 
+![Consul logo](images/consul_logo.png)
+
 Noodling around with HashiCorp's [consul](https://www.consul.io/).
 
 ## Locally
